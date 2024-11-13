@@ -28,6 +28,7 @@ class _MoodEntryFormPageState extends State<MoodEntryFormPage> {
         foregroundColor: Colors.white,
       ),
       // TODO: Tambahkan drawer yang sudah dibuat di sini
+      drawer: const LeftDrawer(),
       body: Form(
         key: _formKey,
         child: Column(
